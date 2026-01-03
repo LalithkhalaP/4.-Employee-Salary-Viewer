@@ -14,3 +14,4 @@ ResultSet getInt(), getDouble(), getString()
 Handling "Record not found" cases
 SQL Table:
 employees(emp_id INT PRIMARY KEY, name VARCHAR(50), salary DOUBLE)
+then we connect the jar and run it.
