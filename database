@@ -1,0 +1,10 @@
+CREATE DATABASE company_db;
+USE company_db;
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    salary INT
+);
+INSERT INTO employees VALUES (101, 'nihil', 50000);
+INSERT INTO employees VALUES (102, 'mathu', 40000);
+SELECT * FROM employees;
